@@ -14,7 +14,6 @@ public class Stack {
 			return original(); // calling the overriden method
 		}
 		else{
-			System.out.println("Stack is empty");
 			return null;
 		}
 	}
