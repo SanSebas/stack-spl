@@ -13,7 +13,9 @@ public class Stack {
 			count--;
 			return original(); // calling the overriden method
 		}
-		else
+		else{
+			System.out.println("Stack is empty");
 			return null;
+		}
 	}
 }
