@@ -3,6 +3,7 @@ package util;
 import java.util.LinkedList;
 
 public class Stack {
+	//linea arriba
 	private LinkedList<Object> data = new LinkedList<Object>();
 	public void push(Object obj) {
 		data.addFirst(obj);
