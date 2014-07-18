@@ -11,6 +11,6 @@ public class Stack {
 	public Object pop() {
 		return data.removeFirst();
 	}
-	//nueva linea
+	//nueva linea1
 }
  
