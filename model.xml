@@ -11,5 +11,5 @@
 			</setRelation>
 		</solitaryFeature>
 	</binaryRelation>
-	<binaryRelation name="R-Notepad"><cardinality max="1" min="0"/><solitaryFeature name="Cut"><binaryRelation name="R-Cut"><cardinality max="1" min="0"/><solitaryFeature name="Clear_all"/></binaryRelation></solitaryFeature></binaryRelation><binaryRelation name="R-Notepad"><cardinality max="1" min="1"/><solitaryFeature name="Finder"/></binaryRelation><binaryRelation name="R-Notepad"><cardinality max="1" min="0"/><solitaryFeature name="pageBreak"/></binaryRelation></feature>
+	<binaryRelation name="R-Notepad"><cardinality max="1" min="0"/><solitaryFeature name="Cut"><binaryRelation name="R-Cut"><cardinality max="1" min="0"/><solitaryFeature name="Clear_all"/></binaryRelation></solitaryFeature></binaryRelation><binaryRelation name="R-Notepad"><cardinality max="1" min="1"/><solitaryFeature name="Finder"/></binaryRelation><binaryRelation name="R-Notepad"><cardinality max="1" min="0"/><solitaryFeature name="pageBreak"/></binaryRelation><binaryRelation name="R-Notepad"><cardinality max="1" min="1"/><solitaryFeature name="Undo"/></binaryRelation></feature>
 </feature-model>
